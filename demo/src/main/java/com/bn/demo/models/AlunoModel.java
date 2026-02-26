@@ -3,15 +3,15 @@ package com.bn.demo.models;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "TBL_PESSOA")
-public class PessoaModel {
+@Table(name = "TBL_ALUNO")
+public class AlunoModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
 
-    public PessoaModel(){
+    public AlunoModel(){
     }
 
     public Long getId() {
